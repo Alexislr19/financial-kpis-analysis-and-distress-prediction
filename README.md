@@ -13,6 +13,8 @@ The objective is twofold:
 
 ## Data Description
 
+For this part it is very important that in the project file you have file named 'data' with subfiles named 'raw', 'processed', and 'final'. This will allow the code of data_loader.py to perform its task correctly. Note that main.py do not depend of data_loader.py to produce the file, it's only considering the final dataset fil named 'panel_balanced_with_deltas.csv'
+
 ### Raw Data (`data/raw/`)
 
 The analysis relies on two main raw datasets:
